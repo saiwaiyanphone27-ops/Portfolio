@@ -208,12 +208,21 @@ nav a:hover {
 
 .about-image .image-placeholder {
   width: 100%;
+  max-width: 100%;
   border-radius: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 18px;
   color: var(--secondary-color);
+  overflow: hidden;
+}
+
+.about-image .image-placeholder img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
 }
 
 .section-title {
