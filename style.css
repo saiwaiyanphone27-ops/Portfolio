@@ -347,8 +347,13 @@ nav a:hover {
   font-weight: 700;
 }
 
-.invo-image {
+/* .invo-image {
   height: 556px;
+} */
+
+a img {
+  border: none;
+  display: block;
 }
 
 .image-placeholder-work img {
